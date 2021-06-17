@@ -1,0 +1,12 @@
+{
+  "SearchPage": {
+    "findYourCarBtn": "xpath;//a[normalize-space()='Jetzt dein Auto finden']",
+    "yearFilterBtn": "id;yearFilter",
+    "fromYear": "xpath;//div[@class='container___2SMPk menuContainer___2mpvu containerBottomEnd___1NYoL']//div[@class='rangeContainer___1mgKq']//div//select[@id='rangeStart']",
+    "year2015": "xpath;//select[@id='rangeStart']//option[@value='7'][normalize-space()='2015']",
+    "activeFilterBtn": "xpath;//button[normalize-space()='Erstzulassung: Ab 2015']",
+    "resetFilterBtn": "xpath;//button[normalize-space()='Filter löschen']",
+    "sortByBtn": "id;sortBy",
+    "priceDescBtn":"xpath;//option[normalize-space()='Höchster Preis']"
+  }
+}
