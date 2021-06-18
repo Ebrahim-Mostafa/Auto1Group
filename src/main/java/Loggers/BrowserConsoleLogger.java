@@ -14,7 +14,7 @@ import java.util.List;
 
 import static BasePackage.BaseTest.driver;
 import static Utilities.Utils.*;
-import static org.aspectj.bridge.MessageUtil.fail;
+import static org.testng.Assert.fail;
 
 public class BrowserConsoleLogger {
     public static Logs logs;
